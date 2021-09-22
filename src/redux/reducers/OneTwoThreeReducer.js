@@ -2,17 +2,17 @@ const stateDefault = {
 	mangDatCuoc: [
 		{
 			ma: 'keo',
-			hinhAnh: '../../one-two-three/img/keo.png',
+			hinhAnh: '../img/keo.png',
 			datCuoc: false
 		},
 		{
 			ma: 'bua',
-			hinhAnh: '../../one-two-three/img/bua.png',
+			hinhAnh: '../img/bua.png',
 			datCuoc: false
 		},
 		{
 			ma: 'bao',
-			hinhAnh: '../../one-two-three/img/bao.png',
+			hinhAnh: '../img/bao.png',
 			datCuoc: false
 		}
 	],
@@ -22,7 +22,7 @@ const stateDefault = {
 	computer: [
 		{
 			ma: 'keo',
-			hinhAnh: '../../one-two-three/img/keo.png'
+			hinhAnh: '../img/keo.png'
 		}
 	]
 }

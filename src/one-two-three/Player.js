@@ -8,8 +8,8 @@ class Player extends Component {
 			<div className='playerGame'>
 				<div className='the-think'>
 					<img
-						src={this.props.mangDatCuoc.find(item => item.datCuoc === true)}
-						alt={this.props.mangDatCuoc.find(item => item.datCuoc === true)}
+						src={this.props.mangDatCuoc.find(item => item.datCuoc === true).hinhAnh}
+						alt={this.props.mangDatCuoc.find(item => item.datCuoc === true).hinhAnh}
 					/>
 				</div>
 				<div className='speech-bubble'></div>
